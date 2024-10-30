@@ -1,6 +1,6 @@
-import { Apple } from "./Apple";
-import { Lassi } from "./Lassi";
-import { Yogurt } from "./Yogurt";
+import { Apple } from "../services/Apple";
+import { Lassi } from "../scripts/Lassi";
+import { Yogurt } from "../services/Yogurt";
 
 export interface Item {
   getPrice(): number;

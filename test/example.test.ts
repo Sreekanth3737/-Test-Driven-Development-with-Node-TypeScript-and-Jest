@@ -1,6 +1,6 @@
-import { Discount } from "../src/Discount";
-import { Store } from "../src/checkout";
-import { ItemType } from "../src/item";
+import { Discount } from "../src/services/Discount";
+import { Store } from "../src/services/Store";
+import { ItemType } from "../src/helpers/item";
 
 const testCases = [
   { item: "apple", expected: 200 },

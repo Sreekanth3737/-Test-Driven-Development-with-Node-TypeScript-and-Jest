@@ -1,4 +1,4 @@
-import { ItemType } from "./item";
+import { ItemType } from "../helpers/item";
 
 export class Discount {
   constructor(

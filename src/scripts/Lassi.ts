@@ -1,5 +1,5 @@
-import { Item } from "./item";
-import { ITEM_LIST_MAP } from "./scripts/constants";
+import { Item } from "../helpers/item";
+import { ITEM_LIST_MAP } from "./constants";
 
 export class Lassi implements Item {
   getPrice(): number {
